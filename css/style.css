@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.nav-item{
+    align-content:center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    width: 20%;
+    height: 6%;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 0.6;
+    text-align: center;
+
+}
+button{
+   opacity: 1;
+    color: aliceblue;
+}
+.navbar{
+    background-color: rgb(131, 7, 110);
+    border: 1px solid black;
+    box-shadow:  10px  5px rgba(17, 7, 7, 0.7);
+
+}
+.background-container{
+    position: relative;
+    width: 100%;
+    height: 100vh; 
+    background-color: rgb(131, 7, 110);
+    background-size: cover; 
+    background-position: center; 
+    display: flex;
+    align-items: center; 
+    position: fixed;
+}
+.nav-link{
+    font: 1em ;
+    font-family: georgia;
+    color: black !important;
+    text-decoration: none;
+}
+.navbar-brand{
+    margin-right: 50px;
+ 
+}
+.ds{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.pic{
+    text-align: center;
+    margin-left: 90px;
+}
+p{
+   font-family: Georgia; 
+   color: white;
+   text-align: center;
+   font-size: large;
+}
+.pics{
+    height: 400px;
+    width: 400px;
+    margin-left: 30px;
+    border-radius: 50%;
+    box-shadow:  10px 10px 5px rgba(17, 7, 7, 0.7);
+}
+.welcome{
+    width: 600px;
+    height: 400px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(144, 89, 146, 0.5);
+    box-shadow:15px 15px 10px rgba(17, 7, 7, 0.7); ;
+    margin-left: 200px;
+    border-radius: 10px;
+    
+}
+h3{
+   padding-top: 40px;
+   text-align: center;
+   font-size: x-large;
+  color: rgb(242, 255, 0);
+  font-family: cambria;
+}
+h2{
+    color: white;
+    font-family :cursive;
+    margin-right: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+i{
+   color:rgb(0, 0, 0);;
+   margin-right: 5px;
+   font-size: larger;
+   margin-left: 15px;
+
+}
+
+.welcome p{
+    font-size: larger;
+    text-align: start;
+    margin-left: 10px;
+    font-family: cambria;
+    color: rgb(242, 255, 0);
+}
+.gif{
+    width:150px;
+    height:150px; 
+    display: inline-flex;
+    margin-left: 200px;
+}
+.contact-info {
+    margin-top: 20px;
+    font-size: 15px;
+    color: yellow; /* Change contact text color to yellow */
+}
+
+.contact-info a {
+    color: white; /* Change link color to white */
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: none;
+    color: rgb(242, 255, 0);
+
+}

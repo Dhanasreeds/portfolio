@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+.nav-item{
+    align-content: end;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+    width: 20%;
+    height: 6%;
+    background-color: white;
+    border-radius: 10%;
+    opacity: 0.6;
+    text-align: center;
+}
+.ds{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+}
+.nav-link{
+    font: 1em ;
+    font-family: georgia;
+    color: black !important;
+    text-decoration: none;
+}
+.navbar{
+    background-color: rgb(131, 7, 110);
+    border: 1px solid black;
+   
+
+}
+
+.background-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(131, 7, 110);
+    height: 100vh;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 10px 0;
+}
+
+.col-sm-4 {
+    display: flex;
+    justify-content: center;*
+    align-items: center;
+    padding: 10px;
+    width: 33.33%;
+    box-sizing: border-box;
+}
+.p-3 col-1{
+    align-content: start;
+    margin-bottom: 10px;
+}
+.card {
+    width: 80%;
+    height: 230px;
+    color: rgb(0, 0, 0);
+    
+    box-shadow:15px 15px 10px rgba(17, 7, 7, 0.7); 
+    border-radius: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: rgba(144, 89, 146, 0.5);
+}
+
+.card-title {
+    margin-top: 0;
+}
+
+
+
+i{
+    color:rgb(0, 0, 0);;
+    margin-right: 5px;
+    font-size: larger;
+    margin-left: 15px;
+ 
+ }
+.card-body a {
+    color: rgb(0, 0, 0); /* Change link color to white */
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+
+.card-body a:hover {
+    text-decoration: none;
+    color: rgb(131, 7, 110);
+
+}
+.fa-github {
+    font-size: 24px; /* Adjust size as needed */
+    color: rgb(0, 0, 0);    /* Set color to white */
+    margin: 0 5px;  /* Add some margin if needed */
+    
+}
+
+.fa-github:hover {
+    color: #000;    /* Change color on hover if needed */
+}

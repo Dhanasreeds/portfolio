@@ -63,7 +63,7 @@
 }
 .card {
     width: 80%;
-    height: 230px;
+    height: 200px;
     color: rgb(0, 0, 0);
     
     box-shadow:15px 15px 10px rgba(17, 7, 7, 0.7); 
@@ -80,7 +80,9 @@
 .card-title {
     margin-top: 0;
 }
-
+.card-text{
+    margin-bottom: 10px;
+}
 
 
 i{
